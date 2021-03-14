@@ -1,0 +1,64 @@
+[0m[[0m[0mdebug[0m] [0m[0mjavaOptions: Vector()[0m
+[0m[[0m[0mdebug[0m] [0m[0mForking tests - parallelism = false[0m
+[0m[[0m[0mdebug[0m] [0m[0mCreate a single-thread test executor[0m
+[0m[[0m[0mdebug[0m] [0m[0mRunner for org.scalatest.tools.Framework produced 4 initial tasks for 4 tests.[0m
+[0m[[0m[0mdebug[0m] [0m[0m  Running TaskDef(edu.gatech.cse6250.clustering.PowerIterationClusteringTest, sbt.ForkMain$SubclassFingerscan@1e4f75c9, false, [SuiteSelector])[0m
+[0m[[0m[0minfo[0m] [0m[0m[32mPowerIterationClusteringTest:[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[32mrunPIC[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[32m- should return expected values[0m[0m
+[0m[[0m[0mdebug[0m] [0m[0m    Produced 0 nested tasks and 1 events.[0m
+[0m[[0m[0mdebug[0m] [0m[0m  Running TaskDef(edu.gatech.cse6250.graphconstruct.JaccardTest, sbt.ForkMain$SubclassFingerscan@7243946e, false, [SuiteSelector])[0m
+[0m[[0m[0minfo[0m] [0m[0m[32mJaccardTest:[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[32mjaccard[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[32m- should be correct[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[32mjaccard[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[32m- should return 0 when union is empty[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[32mjaccardSimilarityOneVsAll[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[32m- should work with <= 10 patients[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[32mjaccardSimilarityOneVsAll[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[32m- should only give 10 patients[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[32mjaccardSimilarityOneVsAll[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[32m- should be correct[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[32mjaccardSimilarityAllPatients[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[32m- should be correct[0m[0m
+[0m[[0m[0mdebug[0m] [0m[0m    Produced 0 nested tasks and 6 events.[0m
+[0m[[0m[0mdebug[0m] [0m[0m  Running TaskDef(edu.gatech.cse6250.graphconstruct.RandomWalkTest, sbt.ForkMain$SubclassFingerscan@720cee9e, false, [SuiteSelector])[0m
+[0m[[0m[0minfo[0m] [0m[0m[32mRandomWalkTest:[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[32mrandomWalkOneVsAll[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[32m- should return expected value[0m[0m
+[0m[[0m[0mdebug[0m] [0m[0m    Produced 0 nested tasks and 1 events.[0m
+[0m[[0m[0mdebug[0m] [0m[0m  Running TaskDef(edu.gatech.cse6250.graphconstruct.GraphLoaderTest, sbt.ForkMain$SubclassFingerscan@753a7890, false, [SuiteSelector])[0m
+[0m[[0m[0minfo[0m] [0m[0m[32mGraphLoaderTest:[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[32mdiag nodes[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[32m- should be latest[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[32mdiag nodes[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[32m- should contain all distinct codes[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[32mdiag nodes[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[32m- should be unique across all patients[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[32mmed nodes[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[32m- should be latest[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[32mmed nodes[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[32m- should contain all distinct codes[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[32mmed nodes[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[32m- should be unique across all patients[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[32mlab nodes[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[32m- should be latest[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[32mlab nodes[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[32m- should contain all distinct codes[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[32mlab nodes[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[32m- should be unique across all patients[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[32mgraph[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[32m- should be bidirectional[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[32mpatient nodes[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[32m- should use patient ID[0m[0m
+[0m[[0m[0mdebug[0m] [0m[0m    Produced 0 nested tasks and 11 events.[0m
+[0m[[0m[0minfo[0m] [0m[0m[36mRun completed in 1 minute, 2 seconds.[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[36mTotal number of tests run: 19[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[36mSuites: completed 4, aborted 0[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[36mTests: succeeded 19, failed 0, canceled 0, ignored 0, pending 0[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[32mAll tests passed.[0m[0m
+[0m[[0m[0mdebug[0m] [0m[0mPassed tests:[0m
+[0m[[0m[0mdebug[0m] [0m[0m	edu.gatech.cse6250.graphconstruct.GraphLoaderTest[0m
+[0m[[0m[0mdebug[0m] [0m[0m	edu.gatech.cse6250.graphconstruct.JaccardTest[0m
+[0m[[0m[0mdebug[0m] [0m[0m	edu.gatech.cse6250.clustering.PowerIterationClusteringTest[0m
+[0m[[0m[0mdebug[0m] [0m[0m	edu.gatech.cse6250.graphconstruct.RandomWalkTest[0m

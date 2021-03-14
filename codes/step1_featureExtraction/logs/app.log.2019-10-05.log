@@ -1,0 +1,322 @@
+2019-10-05 14:53:05,154 WARN pool-1-thread-1-ScalaTest-running-GraphLoaderTest org.apache.hadoop.util.NativeCodeLoader - Unable to load native-hadoop library for your platform... using builtin-java classes where applicable
+2019-10-05 14:53:14,878 ERROR Executor task launch worker for task 19 org.apache.spark.executor.Executor - Exception in task 1.0 in stage 17.0 (TID 19)
+java.lang.ClassCastException: java.lang.String cannot be cast to edu.gatech.cse6250.model.VertexProperty
+	at edu.gatech.cse6250.graphconstruct.GraphLoader$$anonfun$7.apply(GraphLoader.scala:32) ~[classes/:na]
+	at edu.gatech.cse6250.graphconstruct.GraphLoader$$anonfun$7.apply(GraphLoader.scala:32) ~[classes/:na]
+	at scala.collection.Iterator$$anon$11.next(Iterator.scala:410) ~[scala-library-2.11.12.jar:na]
+	at org.apache.spark.shuffle.sort.BypassMergeSortShuffleWriter.write(BypassMergeSortShuffleWriter.java:149) ~[spark-core_2.11-2.3.0.jar:2.3.0]
+	at org.apache.spark.scheduler.ShuffleMapTask.runTask(ShuffleMapTask.scala:96) ~[spark-core_2.11-2.3.0.jar:2.3.0]
+	at org.apache.spark.scheduler.ShuffleMapTask.runTask(ShuffleMapTask.scala:53) ~[spark-core_2.11-2.3.0.jar:2.3.0]
+	at org.apache.spark.scheduler.Task.run(Task.scala:109) ~[spark-core_2.11-2.3.0.jar:2.3.0]
+	at org.apache.spark.executor.Executor$TaskRunner.run(Executor.scala:345) ~[spark-core_2.11-2.3.0.jar:2.3.0]
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1149) [na:1.8.0_191]
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:624) [na:1.8.0_191]
+	at java.lang.Thread.run(Thread.java:748) [na:1.8.0_191]
+2019-10-05 14:53:14,913 WARN task-result-getter-3 org.apache.spark.scheduler.TaskSetManager - Lost task 1.0 in stage 17.0 (TID 19, localhost, executor driver): java.lang.ClassCastException: java.lang.String cannot be cast to edu.gatech.cse6250.model.VertexProperty
+	at edu.gatech.cse6250.graphconstruct.GraphLoader$$anonfun$7.apply(GraphLoader.scala:32)
+	at edu.gatech.cse6250.graphconstruct.GraphLoader$$anonfun$7.apply(GraphLoader.scala:32)
+	at scala.collection.Iterator$$anon$11.next(Iterator.scala:410)
+	at org.apache.spark.shuffle.sort.BypassMergeSortShuffleWriter.write(BypassMergeSortShuffleWriter.java:149)
+	at org.apache.spark.scheduler.ShuffleMapTask.runTask(ShuffleMapTask.scala:96)
+	at org.apache.spark.scheduler.ShuffleMapTask.runTask(ShuffleMapTask.scala:53)
+	at org.apache.spark.scheduler.Task.run(Task.scala:109)
+	at org.apache.spark.executor.Executor$TaskRunner.run(Executor.scala:345)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1149)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:624)
+	at java.lang.Thread.run(Thread.java:748)
+
+2019-10-05 14:53:14,917 ERROR task-result-getter-3 org.apache.spark.scheduler.TaskSetManager - Task 1 in stage 17.0 failed 1 times; aborting job
+2019-10-05 14:53:15,486 ERROR Executor task launch worker for task 19 org.apache.spark.executor.Executor - Exception in task 1.0 in stage 17.0 (TID 19)
+java.lang.ClassCastException: java.lang.String cannot be cast to edu.gatech.cse6250.model.VertexProperty
+	at edu.gatech.cse6250.graphconstruct.GraphLoader$$anonfun$7.apply(GraphLoader.scala:32) ~[classes/:na]
+	at edu.gatech.cse6250.graphconstruct.GraphLoader$$anonfun$7.apply(GraphLoader.scala:32) ~[classes/:na]
+	at scala.collection.Iterator$$anon$11.next(Iterator.scala:410) ~[scala-library-2.11.12.jar:na]
+	at org.apache.spark.shuffle.sort.BypassMergeSortShuffleWriter.write(BypassMergeSortShuffleWriter.java:149) ~[spark-core_2.11-2.3.0.jar:2.3.0]
+	at org.apache.spark.scheduler.ShuffleMapTask.runTask(ShuffleMapTask.scala:96) ~[spark-core_2.11-2.3.0.jar:2.3.0]
+	at org.apache.spark.scheduler.ShuffleMapTask.runTask(ShuffleMapTask.scala:53) ~[spark-core_2.11-2.3.0.jar:2.3.0]
+	at org.apache.spark.scheduler.Task.run(Task.scala:109) ~[spark-core_2.11-2.3.0.jar:2.3.0]
+	at org.apache.spark.executor.Executor$TaskRunner.run(Executor.scala:345) ~[spark-core_2.11-2.3.0.jar:2.3.0]
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1149) [na:1.8.0_191]
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:624) [na:1.8.0_191]
+	at java.lang.Thread.run(Thread.java:748) [na:1.8.0_191]
+2019-10-05 14:53:15,488 WARN task-result-getter-3 org.apache.spark.scheduler.TaskSetManager - Lost task 1.0 in stage 17.0 (TID 19, localhost, executor driver): java.lang.ClassCastException: java.lang.String cannot be cast to edu.gatech.cse6250.model.VertexProperty
+	at edu.gatech.cse6250.graphconstruct.GraphLoader$$anonfun$7.apply(GraphLoader.scala:32)
+	at edu.gatech.cse6250.graphconstruct.GraphLoader$$anonfun$7.apply(GraphLoader.scala:32)
+	at scala.collection.Iterator$$anon$11.next(Iterator.scala:410)
+	at org.apache.spark.shuffle.sort.BypassMergeSortShuffleWriter.write(BypassMergeSortShuffleWriter.java:149)
+	at org.apache.spark.scheduler.ShuffleMapTask.runTask(ShuffleMapTask.scala:96)
+	at org.apache.spark.scheduler.ShuffleMapTask.runTask(ShuffleMapTask.scala:53)
+	at org.apache.spark.scheduler.Task.run(Task.scala:109)
+	at org.apache.spark.executor.Executor$TaskRunner.run(Executor.scala:345)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1149)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:624)
+	at java.lang.Thread.run(Thread.java:748)
+
+2019-10-05 14:53:15,488 ERROR task-result-getter-3 org.apache.spark.scheduler.TaskSetManager - Task 1 in stage 17.0 failed 1 times; aborting job
+2019-10-05 14:53:15,796 ERROR Executor task launch worker for task 13 org.apache.spark.executor.Executor - Exception in task 1.0 in stage 16.0 (TID 13)
+java.lang.ClassCastException: java.lang.String cannot be cast to edu.gatech.cse6250.model.VertexProperty
+	at edu.gatech.cse6250.graphconstruct.GraphLoader$$anonfun$7.apply(GraphLoader.scala:32) ~[classes/:na]
+	at edu.gatech.cse6250.graphconstruct.GraphLoader$$anonfun$7.apply(GraphLoader.scala:32) ~[classes/:na]
+	at scala.collection.Iterator$$anon$11.next(Iterator.scala:410) ~[scala-library-2.11.12.jar:na]
+	at org.apache.spark.shuffle.sort.BypassMergeSortShuffleWriter.write(BypassMergeSortShuffleWriter.java:149) ~[spark-core_2.11-2.3.0.jar:2.3.0]
+	at org.apache.spark.scheduler.ShuffleMapTask.runTask(ShuffleMapTask.scala:96) ~[spark-core_2.11-2.3.0.jar:2.3.0]
+	at org.apache.spark.scheduler.ShuffleMapTask.runTask(ShuffleMapTask.scala:53) ~[spark-core_2.11-2.3.0.jar:2.3.0]
+	at org.apache.spark.scheduler.Task.run(Task.scala:109) ~[spark-core_2.11-2.3.0.jar:2.3.0]
+	at org.apache.spark.executor.Executor$TaskRunner.run(Executor.scala:345) ~[spark-core_2.11-2.3.0.jar:2.3.0]
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1149) [na:1.8.0_191]
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:624) [na:1.8.0_191]
+	at java.lang.Thread.run(Thread.java:748) [na:1.8.0_191]
+2019-10-05 14:53:15,798 WARN task-result-getter-1 org.apache.spark.scheduler.TaskSetManager - Lost task 1.0 in stage 16.0 (TID 13, localhost, executor driver): java.lang.ClassCastException: java.lang.String cannot be cast to edu.gatech.cse6250.model.VertexProperty
+	at edu.gatech.cse6250.graphconstruct.GraphLoader$$anonfun$7.apply(GraphLoader.scala:32)
+	at edu.gatech.cse6250.graphconstruct.GraphLoader$$anonfun$7.apply(GraphLoader.scala:32)
+	at scala.collection.Iterator$$anon$11.next(Iterator.scala:410)
+	at org.apache.spark.shuffle.sort.BypassMergeSortShuffleWriter.write(BypassMergeSortShuffleWriter.java:149)
+	at org.apache.spark.scheduler.ShuffleMapTask.runTask(ShuffleMapTask.scala:96)
+	at org.apache.spark.scheduler.ShuffleMapTask.runTask(ShuffleMapTask.scala:53)
+	at org.apache.spark.scheduler.Task.run(Task.scala:109)
+	at org.apache.spark.executor.Executor$TaskRunner.run(Executor.scala:345)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1149)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:624)
+	at java.lang.Thread.run(Thread.java:748)
+
+2019-10-05 14:53:15,799 ERROR task-result-getter-1 org.apache.spark.scheduler.TaskSetManager - Task 1 in stage 16.0 failed 1 times; aborting job
+2019-10-05 14:53:16,116 ERROR Executor task launch worker for task 13 org.apache.spark.executor.Executor - Exception in task 1.0 in stage 16.0 (TID 13)
+java.lang.ClassCastException: java.lang.String cannot be cast to edu.gatech.cse6250.model.VertexProperty
+	at edu.gatech.cse6250.graphconstruct.GraphLoader$$anonfun$7.apply(GraphLoader.scala:32) ~[classes/:na]
+	at edu.gatech.cse6250.graphconstruct.GraphLoader$$anonfun$7.apply(GraphLoader.scala:32) ~[classes/:na]
+	at scala.collection.Iterator$$anon$11.next(Iterator.scala:410) ~[scala-library-2.11.12.jar:na]
+	at org.apache.spark.shuffle.sort.BypassMergeSortShuffleWriter.write(BypassMergeSortShuffleWriter.java:149) ~[spark-core_2.11-2.3.0.jar:2.3.0]
+	at org.apache.spark.scheduler.ShuffleMapTask.runTask(ShuffleMapTask.scala:96) ~[spark-core_2.11-2.3.0.jar:2.3.0]
+	at org.apache.spark.scheduler.ShuffleMapTask.runTask(ShuffleMapTask.scala:53) ~[spark-core_2.11-2.3.0.jar:2.3.0]
+	at org.apache.spark.scheduler.Task.run(Task.scala:109) ~[spark-core_2.11-2.3.0.jar:2.3.0]
+	at org.apache.spark.executor.Executor$TaskRunner.run(Executor.scala:345) ~[spark-core_2.11-2.3.0.jar:2.3.0]
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1149) [na:1.8.0_191]
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:624) [na:1.8.0_191]
+	at java.lang.Thread.run(Thread.java:748) [na:1.8.0_191]
+2019-10-05 14:53:16,119 WARN task-result-getter-1 org.apache.spark.scheduler.TaskSetManager - Lost task 1.0 in stage 16.0 (TID 13, localhost, executor driver): java.lang.ClassCastException: java.lang.String cannot be cast to edu.gatech.cse6250.model.VertexProperty
+	at edu.gatech.cse6250.graphconstruct.GraphLoader$$anonfun$7.apply(GraphLoader.scala:32)
+	at edu.gatech.cse6250.graphconstruct.GraphLoader$$anonfun$7.apply(GraphLoader.scala:32)
+	at scala.collection.Iterator$$anon$11.next(Iterator.scala:410)
+	at org.apache.spark.shuffle.sort.BypassMergeSortShuffleWriter.write(BypassMergeSortShuffleWriter.java:149)
+	at org.apache.spark.scheduler.ShuffleMapTask.runTask(ShuffleMapTask.scala:96)
+	at org.apache.spark.scheduler.ShuffleMapTask.runTask(ShuffleMapTask.scala:53)
+	at org.apache.spark.scheduler.Task.run(Task.scala:109)
+	at org.apache.spark.executor.Executor$TaskRunner.run(Executor.scala:345)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1149)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:624)
+	at java.lang.Thread.run(Thread.java:748)
+
+2019-10-05 14:53:16,119 ERROR task-result-getter-1 org.apache.spark.scheduler.TaskSetManager - Task 1 in stage 16.0 failed 1 times; aborting job
+2019-10-05 14:53:27,590 ERROR dispatcher-event-loop-1 org.apache.spark.scheduler.TaskSchedulerImpl - Exception in statusUpdate
+java.util.concurrent.RejectedExecutionException: Task org.apache.spark.scheduler.TaskResultGetter$$anon$3@7d615571 rejected from java.util.concurrent.ThreadPoolExecutor@6fe14c52[Terminated, pool size = 0, active threads = 0, queued tasks = 0, completed tasks = 1248]
+	at java.util.concurrent.ThreadPoolExecutor$AbortPolicy.rejectedExecution(ThreadPoolExecutor.java:2063) ~[na:1.8.0_191]
+	at java.util.concurrent.ThreadPoolExecutor.reject(ThreadPoolExecutor.java:830) [na:1.8.0_191]
+	at java.util.concurrent.ThreadPoolExecutor.execute(ThreadPoolExecutor.java:1379) [na:1.8.0_191]
+	at org.apache.spark.scheduler.TaskResultGetter.enqueueSuccessfulTask(TaskResultGetter.scala:61) ~[spark-core_2.11-2.3.0.jar:2.3.0]
+	at org.apache.spark.scheduler.TaskSchedulerImpl.liftedTree2$1(TaskSchedulerImpl.scala:413) [spark-core_2.11-2.3.0.jar:2.3.0]
+	at org.apache.spark.scheduler.TaskSchedulerImpl.statusUpdate(TaskSchedulerImpl.scala:394) [spark-core_2.11-2.3.0.jar:2.3.0]
+	at org.apache.spark.scheduler.local.LocalEndpoint$$anonfun$receive$1.applyOrElse(LocalSchedulerBackend.scala:67) [spark-core_2.11-2.3.0.jar:2.3.0]
+	at org.apache.spark.rpc.netty.Inbox$$anonfun$process$1.apply$mcV$sp(Inbox.scala:117) [spark-core_2.11-2.3.0.jar:2.3.0]
+	at org.apache.spark.rpc.netty.Inbox.safelyCall(Inbox.scala:205) [spark-core_2.11-2.3.0.jar:2.3.0]
+	at org.apache.spark.rpc.netty.Inbox.process(Inbox.scala:101) [spark-core_2.11-2.3.0.jar:2.3.0]
+	at org.apache.spark.rpc.netty.Dispatcher$MessageLoop.run(Dispatcher.scala:221) [spark-core_2.11-2.3.0.jar:2.3.0]
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1149) [na:1.8.0_191]
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:624) [na:1.8.0_191]
+	at java.lang.Thread.run(Thread.java:748) [na:1.8.0_191]
+2019-10-05 14:53:27,592 ERROR dispatcher-event-loop-1 org.apache.spark.rpc.netty.Inbox - Ignoring error
+java.util.concurrent.RejectedExecutionException: Task org.apache.spark.executor.Executor$TaskRunner@55f546ff rejected from java.util.concurrent.ThreadPoolExecutor@2a71507e[Shutting down, pool size = 1, active threads = 1, queued tasks = 0, completed tasks = 1248]
+	at java.util.concurrent.ThreadPoolExecutor$AbortPolicy.rejectedExecution(ThreadPoolExecutor.java:2063) ~[na:1.8.0_191]
+	at java.util.concurrent.ThreadPoolExecutor.reject(ThreadPoolExecutor.java:830) [na:1.8.0_191]
+	at java.util.concurrent.ThreadPoolExecutor.execute(ThreadPoolExecutor.java:1379) [na:1.8.0_191]
+	at org.apache.spark.executor.Executor.launchTask(Executor.scala:177) ~[spark-core_2.11-2.3.0.jar:2.3.0]
+	at org.apache.spark.scheduler.local.LocalEndpoint$$anonfun$reviveOffers$1.apply(LocalSchedulerBackend.scala:87) ~[spark-core_2.11-2.3.0.jar:2.3.0]
+	at org.apache.spark.scheduler.local.LocalEndpoint$$anonfun$reviveOffers$1.apply(LocalSchedulerBackend.scala:85) ~[spark-core_2.11-2.3.0.jar:2.3.0]
+	at scala.collection.Iterator$class.foreach(Iterator.scala:891) ~[scala-library-2.11.12.jar:na]
+	at scala.collection.AbstractIterator.foreach(Iterator.scala:1334) ~[scala-library-2.11.12.jar:na]
+	at scala.collection.IterableLike$class.foreach(IterableLike.scala:72) ~[scala-library-2.11.12.jar:na]
+	at scala.collection.AbstractIterable.foreach(Iterable.scala:54) ~[scala-library-2.11.12.jar:na]
+	at org.apache.spark.scheduler.local.LocalEndpoint.reviveOffers(LocalSchedulerBackend.scala:85) ~[spark-core_2.11-2.3.0.jar:2.3.0]
+	at org.apache.spark.scheduler.local.LocalEndpoint$$anonfun$receive$1.applyOrElse(LocalSchedulerBackend.scala:70) ~[spark-core_2.11-2.3.0.jar:2.3.0]
+	at org.apache.spark.rpc.netty.Inbox$$anonfun$process$1.apply$mcV$sp(Inbox.scala:117) ~[spark-core_2.11-2.3.0.jar:2.3.0]
+	at org.apache.spark.rpc.netty.Inbox.safelyCall(Inbox.scala:205) [spark-core_2.11-2.3.0.jar:2.3.0]
+	at org.apache.spark.rpc.netty.Inbox.process(Inbox.scala:101) [spark-core_2.11-2.3.0.jar:2.3.0]
+	at org.apache.spark.rpc.netty.Dispatcher$MessageLoop.run(Dispatcher.scala:221) [spark-core_2.11-2.3.0.jar:2.3.0]
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1149) [na:1.8.0_191]
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:624) [na:1.8.0_191]
+	at java.lang.Thread.run(Thread.java:748) [na:1.8.0_191]
+2019-10-05 14:55:46,264 WARN pool-1-thread-1-ScalaTest-running-GraphLoaderTest org.apache.hadoop.util.NativeCodeLoader - Unable to load native-hadoop library for your platform... using builtin-java classes where applicable
+2019-10-05 14:56:06,998 WARN pool-1-thread-1-ScalaTest-running-PowerIterationClusteringTest org.apache.spark.mllib.clustering.KMeans - The input data is not directly cached, which may hurt performance if its parent RDDs are also uncached.
+2019-10-05 14:56:07,868 WARN Executor task launch worker for task 1363 com.github.fommil.netlib.BLAS - Failed to load implementation from: com.github.fommil.netlib.NativeSystemBLAS
+2019-10-05 14:56:07,917 WARN Executor task launch worker for task 1363 com.github.fommil.netlib.BLAS - Failed to load implementation from: com.github.fommil.netlib.NativeRefBLAS
+2019-10-05 14:56:08,028 WARN pool-1-thread-1-ScalaTest-running-PowerIterationClusteringTest org.apache.spark.mllib.clustering.KMeans - The input data was not directly cached, which may hurt performance if its parent RDDs are also uncached.
+2019-10-05 15:39:43,377 WARN pool-1-thread-1-ScalaTest-running-GraphLoaderTest org.apache.hadoop.util.NativeCodeLoader - Unable to load native-hadoop library for your platform... using builtin-java classes where applicable
+2019-10-05 15:40:05,144 WARN pool-1-thread-1-ScalaTest-running-PowerIterationClusteringTest org.apache.spark.mllib.clustering.KMeans - The input data is not directly cached, which may hurt performance if its parent RDDs are also uncached.
+2019-10-05 15:40:06,019 WARN Executor task launch worker for task 1363 com.github.fommil.netlib.BLAS - Failed to load implementation from: com.github.fommil.netlib.NativeSystemBLAS
+2019-10-05 15:40:06,065 WARN Executor task launch worker for task 1363 com.github.fommil.netlib.BLAS - Failed to load implementation from: com.github.fommil.netlib.NativeRefBLAS
+2019-10-05 15:40:06,230 WARN pool-1-thread-1-ScalaTest-running-PowerIterationClusteringTest org.apache.spark.mllib.clustering.KMeans - The input data was not directly cached, which may hurt performance if its parent RDDs are also uncached.
+2019-10-05 15:45:53,977 WARN pool-1-thread-1-ScalaTest-running-GraphLoaderTest org.apache.hadoop.util.NativeCodeLoader - Unable to load native-hadoop library for your platform... using builtin-java classes where applicable
+2019-10-05 15:46:14,580 WARN pool-1-thread-1-ScalaTest-running-PowerIterationClusteringTest org.apache.spark.mllib.clustering.KMeans - The input data is not directly cached, which may hurt performance if its parent RDDs are also uncached.
+2019-10-05 15:46:15,415 WARN Executor task launch worker for task 1363 com.github.fommil.netlib.BLAS - Failed to load implementation from: com.github.fommil.netlib.NativeSystemBLAS
+2019-10-05 15:46:15,452 WARN Executor task launch worker for task 1363 com.github.fommil.netlib.BLAS - Failed to load implementation from: com.github.fommil.netlib.NativeRefBLAS
+2019-10-05 15:46:15,560 WARN pool-1-thread-1-ScalaTest-running-PowerIterationClusteringTest org.apache.spark.mllib.clustering.KMeans - The input data was not directly cached, which may hurt performance if its parent RDDs are also uncached.
+2019-10-05 15:53:24,030 WARN pool-1-thread-1-ScalaTest-running-GraphLoaderTest org.apache.hadoop.util.NativeCodeLoader - Unable to load native-hadoop library for your platform... using builtin-java classes where applicable
+2019-10-05 15:53:45,037 WARN pool-1-thread-1-ScalaTest-running-PowerIterationClusteringTest org.apache.spark.mllib.clustering.KMeans - The input data is not directly cached, which may hurt performance if its parent RDDs are also uncached.
+2019-10-05 15:53:45,918 WARN Executor task launch worker for task 1363 com.github.fommil.netlib.BLAS - Failed to load implementation from: com.github.fommil.netlib.NativeSystemBLAS
+2019-10-05 15:53:46,003 WARN Executor task launch worker for task 1363 com.github.fommil.netlib.BLAS - Failed to load implementation from: com.github.fommil.netlib.NativeRefBLAS
+2019-10-05 15:53:46,111 WARN pool-1-thread-1-ScalaTest-running-PowerIterationClusteringTest org.apache.spark.mllib.clustering.KMeans - The input data was not directly cached, which may hurt performance if its parent RDDs are also uncached.
+2019-10-05 16:19:19,883 WARN main org.apache.hadoop.util.NativeCodeLoader - Unable to load native-hadoop library for your platform... using builtin-java classes where applicable
+2019-10-05 16:19:32,128 ERROR Executor task launch worker for task 4 org.apache.spark.executor.Executor - Exception in task 0.0 in stage 4.0 (TID 4)
+java.lang.NullPointerException: null
+	at edu.gatech.cse6250.main.Main$$anonfun$1.apply(Main.scala:60) ~[big-data-hw4_2.11-1.1.0.jar:1.1.0]
+	at edu.gatech.cse6250.main.Main$$anonfun$1.apply(Main.scala:60) ~[big-data-hw4_2.11-1.1.0.jar:1.1.0]
+	at org.apache.spark.sql.execution.MapElementsExec$$anonfun$7$$anonfun$apply$1.apply(objects.scala:236) ~[spark-sql_2.11-2.3.0.jar:2.3.0]
+	at org.apache.spark.sql.execution.MapElementsExec$$anonfun$7$$anonfun$apply$1.apply(objects.scala:236) ~[spark-sql_2.11-2.3.0.jar:2.3.0]
+	at scala.collection.Iterator$$anon$11.next(Iterator.scala:410) ~[scala-library-2.11.12.jar:na]
+	at scala.collection.Iterator$$anon$11.next(Iterator.scala:410) ~[scala-library-2.11.12.jar:na]
+	at scala.collection.Iterator$$anon$11.next(Iterator.scala:410) ~[scala-library-2.11.12.jar:na]
+	at scala.collection.Iterator$class.foreach(Iterator.scala:891) ~[scala-library-2.11.12.jar:na]
+	at scala.collection.AbstractIterator.foreach(Iterator.scala:1334) ~[scala-library-2.11.12.jar:na]
+	at scala.collection.TraversableOnce$class.reduceLeft(TraversableOnce.scala:185) ~[scala-library-2.11.12.jar:na]
+	at scala.collection.AbstractIterator.reduceLeft(Iterator.scala:1334) ~[scala-library-2.11.12.jar:na]
+	at org.apache.spark.rdd.RDD$$anonfun$reduce$1$$anonfun$14.apply(RDD.scala:1015) ~[spark-core_2.11-2.3.0.jar:2.3.0]
+	at org.apache.spark.rdd.RDD$$anonfun$reduce$1$$anonfun$14.apply(RDD.scala:1013) ~[spark-core_2.11-2.3.0.jar:2.3.0]
+	at org.apache.spark.SparkContext$$anonfun$33.apply(SparkContext.scala:2123) ~[spark-core_2.11-2.3.0.jar:2.3.0]
+	at org.apache.spark.SparkContext$$anonfun$33.apply(SparkContext.scala:2123) ~[spark-core_2.11-2.3.0.jar:2.3.0]
+	at org.apache.spark.scheduler.ResultTask.runTask(ResultTask.scala:87) ~[spark-core_2.11-2.3.0.jar:2.3.0]
+	at org.apache.spark.scheduler.Task.run(Task.scala:109) ~[spark-core_2.11-2.3.0.jar:2.3.0]
+	at org.apache.spark.executor.Executor$TaskRunner.run(Executor.scala:345) ~[spark-core_2.11-2.3.0.jar:2.3.0]
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1149) [na:1.8.0_191]
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:624) [na:1.8.0_191]
+	at java.lang.Thread.run(Thread.java:748) [na:1.8.0_191]
+2019-10-05 16:19:32,179 WARN task-result-getter-0 org.apache.spark.scheduler.TaskSetManager - Lost task 0.0 in stage 4.0 (TID 4, localhost, executor driver): java.lang.NullPointerException
+	at edu.gatech.cse6250.main.Main$$anonfun$1.apply(Main.scala:60)
+	at edu.gatech.cse6250.main.Main$$anonfun$1.apply(Main.scala:60)
+	at org.apache.spark.sql.execution.MapElementsExec$$anonfun$7$$anonfun$apply$1.apply(objects.scala:236)
+	at org.apache.spark.sql.execution.MapElementsExec$$anonfun$7$$anonfun$apply$1.apply(objects.scala:236)
+	at scala.collection.Iterator$$anon$11.next(Iterator.scala:410)
+	at scala.collection.Iterator$$anon$11.next(Iterator.scala:410)
+	at scala.collection.Iterator$$anon$11.next(Iterator.scala:410)
+	at scala.collection.Iterator$class.foreach(Iterator.scala:891)
+	at scala.collection.AbstractIterator.foreach(Iterator.scala:1334)
+	at scala.collection.TraversableOnce$class.reduceLeft(TraversableOnce.scala:185)
+	at scala.collection.AbstractIterator.reduceLeft(Iterator.scala:1334)
+	at org.apache.spark.rdd.RDD$$anonfun$reduce$1$$anonfun$14.apply(RDD.scala:1015)
+	at org.apache.spark.rdd.RDD$$anonfun$reduce$1$$anonfun$14.apply(RDD.scala:1013)
+	at org.apache.spark.SparkContext$$anonfun$33.apply(SparkContext.scala:2123)
+	at org.apache.spark.SparkContext$$anonfun$33.apply(SparkContext.scala:2123)
+	at org.apache.spark.scheduler.ResultTask.runTask(ResultTask.scala:87)
+	at org.apache.spark.scheduler.Task.run(Task.scala:109)
+	at org.apache.spark.executor.Executor$TaskRunner.run(Executor.scala:345)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1149)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:624)
+	at java.lang.Thread.run(Thread.java:748)
+
+2019-10-05 16:19:32,189 ERROR task-result-getter-0 org.apache.spark.scheduler.TaskSetManager - Task 0 in stage 4.0 failed 1 times; aborting job
+2019-10-05 16:20:34,867 WARN pool-1-thread-1-ScalaTest-running-GraphLoaderTest org.apache.hadoop.util.NativeCodeLoader - Unable to load native-hadoop library for your platform... using builtin-java classes where applicable
+2019-10-05 16:20:55,867 WARN pool-1-thread-1-ScalaTest-running-PowerIterationClusteringTest org.apache.spark.mllib.clustering.KMeans - The input data is not directly cached, which may hurt performance if its parent RDDs are also uncached.
+2019-10-05 16:20:56,703 WARN Executor task launch worker for task 1363 com.github.fommil.netlib.BLAS - Failed to load implementation from: com.github.fommil.netlib.NativeSystemBLAS
+2019-10-05 16:20:56,747 WARN Executor task launch worker for task 1363 com.github.fommil.netlib.BLAS - Failed to load implementation from: com.github.fommil.netlib.NativeRefBLAS
+2019-10-05 16:20:56,862 WARN pool-1-thread-1-ScalaTest-running-PowerIterationClusteringTest org.apache.spark.mllib.clustering.KMeans - The input data was not directly cached, which may hurt performance if its parent RDDs are also uncached.
+2019-10-05 16:23:18,545 WARN main org.apache.hadoop.util.NativeCodeLoader - Unable to load native-hadoop library for your platform... using builtin-java classes where applicable
+2019-10-05 16:23:30,464 ERROR Executor task launch worker for task 4 org.apache.spark.executor.Executor - Exception in task 0.0 in stage 4.0 (TID 4)
+java.lang.NullPointerException: null
+	at edu.gatech.cse6250.main.Main$$anonfun$1.apply(Main.scala:60) ~[big-data-hw4_2.11-1.1.0.jar:1.1.0]
+	at edu.gatech.cse6250.main.Main$$anonfun$1.apply(Main.scala:60) ~[big-data-hw4_2.11-1.1.0.jar:1.1.0]
+	at org.apache.spark.sql.execution.MapElementsExec$$anonfun$7$$anonfun$apply$1.apply(objects.scala:236) ~[spark-sql_2.11-2.3.0.jar:2.3.0]
+	at org.apache.spark.sql.execution.MapElementsExec$$anonfun$7$$anonfun$apply$1.apply(objects.scala:236) ~[spark-sql_2.11-2.3.0.jar:2.3.0]
+	at scala.collection.Iterator$$anon$11.next(Iterator.scala:410) ~[scala-library-2.11.12.jar:na]
+	at scala.collection.Iterator$$anon$11.next(Iterator.scala:410) ~[scala-library-2.11.12.jar:na]
+	at scala.collection.Iterator$$anon$11.next(Iterator.scala:410) ~[scala-library-2.11.12.jar:na]
+	at scala.collection.Iterator$class.foreach(Iterator.scala:891) ~[scala-library-2.11.12.jar:na]
+	at scala.collection.AbstractIterator.foreach(Iterator.scala:1334) ~[scala-library-2.11.12.jar:na]
+	at scala.collection.TraversableOnce$class.reduceLeft(TraversableOnce.scala:185) ~[scala-library-2.11.12.jar:na]
+	at scala.collection.AbstractIterator.reduceLeft(Iterator.scala:1334) ~[scala-library-2.11.12.jar:na]
+	at org.apache.spark.rdd.RDD$$anonfun$reduce$1$$anonfun$14.apply(RDD.scala:1015) ~[spark-core_2.11-2.3.0.jar:2.3.0]
+	at org.apache.spark.rdd.RDD$$anonfun$reduce$1$$anonfun$14.apply(RDD.scala:1013) ~[spark-core_2.11-2.3.0.jar:2.3.0]
+	at org.apache.spark.SparkContext$$anonfun$33.apply(SparkContext.scala:2123) ~[spark-core_2.11-2.3.0.jar:2.3.0]
+	at org.apache.spark.SparkContext$$anonfun$33.apply(SparkContext.scala:2123) ~[spark-core_2.11-2.3.0.jar:2.3.0]
+	at org.apache.spark.scheduler.ResultTask.runTask(ResultTask.scala:87) ~[spark-core_2.11-2.3.0.jar:2.3.0]
+	at org.apache.spark.scheduler.Task.run(Task.scala:109) ~[spark-core_2.11-2.3.0.jar:2.3.0]
+	at org.apache.spark.executor.Executor$TaskRunner.run(Executor.scala:345) ~[spark-core_2.11-2.3.0.jar:2.3.0]
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1149) [na:1.8.0_191]
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:624) [na:1.8.0_191]
+	at java.lang.Thread.run(Thread.java:748) [na:1.8.0_191]
+2019-10-05 16:23:30,512 WARN task-result-getter-0 org.apache.spark.scheduler.TaskSetManager - Lost task 0.0 in stage 4.0 (TID 4, localhost, executor driver): java.lang.NullPointerException
+	at edu.gatech.cse6250.main.Main$$anonfun$1.apply(Main.scala:60)
+	at edu.gatech.cse6250.main.Main$$anonfun$1.apply(Main.scala:60)
+	at org.apache.spark.sql.execution.MapElementsExec$$anonfun$7$$anonfun$apply$1.apply(objects.scala:236)
+	at org.apache.spark.sql.execution.MapElementsExec$$anonfun$7$$anonfun$apply$1.apply(objects.scala:236)
+	at scala.collection.Iterator$$anon$11.next(Iterator.scala:410)
+	at scala.collection.Iterator$$anon$11.next(Iterator.scala:410)
+	at scala.collection.Iterator$$anon$11.next(Iterator.scala:410)
+	at scala.collection.Iterator$class.foreach(Iterator.scala:891)
+	at scala.collection.AbstractIterator.foreach(Iterator.scala:1334)
+	at scala.collection.TraversableOnce$class.reduceLeft(TraversableOnce.scala:185)
+	at scala.collection.AbstractIterator.reduceLeft(Iterator.scala:1334)
+	at org.apache.spark.rdd.RDD$$anonfun$reduce$1$$anonfun$14.apply(RDD.scala:1015)
+	at org.apache.spark.rdd.RDD$$anonfun$reduce$1$$anonfun$14.apply(RDD.scala:1013)
+	at org.apache.spark.SparkContext$$anonfun$33.apply(SparkContext.scala:2123)
+	at org.apache.spark.SparkContext$$anonfun$33.apply(SparkContext.scala:2123)
+	at org.apache.spark.scheduler.ResultTask.runTask(ResultTask.scala:87)
+	at org.apache.spark.scheduler.Task.run(Task.scala:109)
+	at org.apache.spark.executor.Executor$TaskRunner.run(Executor.scala:345)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1149)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:624)
+	at java.lang.Thread.run(Thread.java:748)
+
+2019-10-05 16:23:30,516 ERROR task-result-getter-0 org.apache.spark.scheduler.TaskSetManager - Task 0 in stage 4.0 failed 1 times; aborting job
+2019-10-05 16:38:00,674 WARN pool-1-thread-1-ScalaTest-running-GraphLoaderTest org.apache.hadoop.util.NativeCodeLoader - Unable to load native-hadoop library for your platform... using builtin-java classes where applicable
+2019-10-05 16:38:22,136 WARN pool-1-thread-1-ScalaTest-running-PowerIterationClusteringTest org.apache.spark.mllib.clustering.KMeans - The input data is not directly cached, which may hurt performance if its parent RDDs are also uncached.
+2019-10-05 16:38:22,998 WARN Executor task launch worker for task 1363 com.github.fommil.netlib.BLAS - Failed to load implementation from: com.github.fommil.netlib.NativeSystemBLAS
+2019-10-05 16:38:23,071 WARN Executor task launch worker for task 1363 com.github.fommil.netlib.BLAS - Failed to load implementation from: com.github.fommil.netlib.NativeRefBLAS
+2019-10-05 16:38:23,187 WARN pool-1-thread-1-ScalaTest-running-PowerIterationClusteringTest org.apache.spark.mllib.clustering.KMeans - The input data was not directly cached, which may hurt performance if its parent RDDs are also uncached.
+2019-10-05 16:51:58,002 WARN pool-1-thread-1-ScalaTest-running-GraphLoaderTest org.apache.hadoop.util.NativeCodeLoader - Unable to load native-hadoop library for your platform... using builtin-java classes where applicable
+2019-10-05 16:52:20,040 WARN pool-1-thread-1-ScalaTest-running-PowerIterationClusteringTest org.apache.spark.mllib.clustering.KMeans - The input data is not directly cached, which may hurt performance if its parent RDDs are also uncached.
+2019-10-05 16:52:20,914 WARN Executor task launch worker for task 1363 com.github.fommil.netlib.BLAS - Failed to load implementation from: com.github.fommil.netlib.NativeSystemBLAS
+2019-10-05 16:52:20,954 WARN Executor task launch worker for task 1363 com.github.fommil.netlib.BLAS - Failed to load implementation from: com.github.fommil.netlib.NativeRefBLAS
+2019-10-05 16:52:21,079 WARN pool-1-thread-1-ScalaTest-running-PowerIterationClusteringTest org.apache.spark.mllib.clustering.KMeans - The input data was not directly cached, which may hurt performance if its parent RDDs are also uncached.
+2019-10-05 16:59:47,685 WARN pool-1-thread-1-ScalaTest-running-GraphLoaderTest org.apache.hadoop.util.NativeCodeLoader - Unable to load native-hadoop library for your platform... using builtin-java classes where applicable
+2019-10-05 17:00:08,234 WARN pool-1-thread-1-ScalaTest-running-PowerIterationClusteringTest org.apache.spark.mllib.clustering.KMeans - The input data is not directly cached, which may hurt performance if its parent RDDs are also uncached.
+2019-10-05 17:00:09,089 WARN Executor task launch worker for task 1363 com.github.fommil.netlib.BLAS - Failed to load implementation from: com.github.fommil.netlib.NativeSystemBLAS
+2019-10-05 17:00:09,125 WARN Executor task launch worker for task 1363 com.github.fommil.netlib.BLAS - Failed to load implementation from: com.github.fommil.netlib.NativeRefBLAS
+2019-10-05 17:00:09,240 WARN pool-1-thread-1-ScalaTest-running-PowerIterationClusteringTest org.apache.spark.mllib.clustering.KMeans - The input data was not directly cached, which may hurt performance if its parent RDDs are also uncached.
+2019-10-05 17:02:28,050 WARN main org.apache.hadoop.util.NativeCodeLoader - Unable to load native-hadoop library for your platform... using builtin-java classes where applicable
+2019-10-05 17:04:35,858 WARN main org.apache.spark.mllib.clustering.KMeans - The input data is not directly cached, which may hurt performance if its parent RDDs are also uncached.
+2019-10-05 17:04:36,985 WARN Executor task launch worker for task 7618 com.github.fommil.netlib.BLAS - Failed to load implementation from: com.github.fommil.netlib.NativeSystemBLAS
+2019-10-05 17:04:37,024 WARN Executor task launch worker for task 7618 com.github.fommil.netlib.BLAS - Failed to load implementation from: com.github.fommil.netlib.NativeRefBLAS
+2019-10-05 17:04:38,464 WARN main org.apache.spark.mllib.clustering.KMeans - The input data was not directly cached, which may hurt performance if its parent RDDs are also uncached.
+2019-10-05 17:06:54,147 WARN pool-1-thread-1-ScalaTest-running-GraphLoaderTest org.apache.hadoop.util.NativeCodeLoader - Unable to load native-hadoop library for your platform... using builtin-java classes where applicable
+2019-10-05 17:07:14,626 WARN pool-1-thread-1-ScalaTest-running-PowerIterationClusteringTest org.apache.spark.mllib.clustering.KMeans - The input data is not directly cached, which may hurt performance if its parent RDDs are also uncached.
+2019-10-05 17:07:15,460 WARN Executor task launch worker for task 1363 com.github.fommil.netlib.BLAS - Failed to load implementation from: com.github.fommil.netlib.NativeSystemBLAS
+2019-10-05 17:07:15,504 WARN Executor task launch worker for task 1363 com.github.fommil.netlib.BLAS - Failed to load implementation from: com.github.fommil.netlib.NativeRefBLAS
+2019-10-05 17:07:15,638 WARN pool-1-thread-1-ScalaTest-running-PowerIterationClusteringTest org.apache.spark.mllib.clustering.KMeans - The input data was not directly cached, which may hurt performance if its parent RDDs are also uncached.
+2019-10-05 17:33:24,598 WARN pool-1-thread-1-ScalaTest-running-GraphLoaderTest org.apache.hadoop.util.NativeCodeLoader - Unable to load native-hadoop library for your platform... using builtin-java classes where applicable
+2019-10-05 17:33:45,031 WARN pool-1-thread-1-ScalaTest-running-PowerIterationClusteringTest org.apache.spark.mllib.clustering.KMeans - The input data is not directly cached, which may hurt performance if its parent RDDs are also uncached.
+2019-10-05 17:33:45,858 WARN Executor task launch worker for task 1363 com.github.fommil.netlib.BLAS - Failed to load implementation from: com.github.fommil.netlib.NativeSystemBLAS
+2019-10-05 17:33:45,900 WARN Executor task launch worker for task 1363 com.github.fommil.netlib.BLAS - Failed to load implementation from: com.github.fommil.netlib.NativeRefBLAS
+2019-10-05 17:33:46,060 WARN pool-1-thread-1-ScalaTest-running-PowerIterationClusteringTest org.apache.spark.mllib.clustering.KMeans - The input data was not directly cached, which may hurt performance if its parent RDDs are also uncached.
+2019-10-05 17:35:20,937 WARN main org.apache.hadoop.util.NativeCodeLoader - Unable to load native-hadoop library for your platform... using builtin-java classes where applicable
+2019-10-05 17:37:22,162 WARN main org.apache.spark.mllib.clustering.KMeans - The input data is not directly cached, which may hurt performance if its parent RDDs are also uncached.
+2019-10-05 17:37:23,182 WARN Executor task launch worker for task 7618 com.github.fommil.netlib.BLAS - Failed to load implementation from: com.github.fommil.netlib.NativeSystemBLAS
+2019-10-05 17:37:23,229 WARN Executor task launch worker for task 7618 com.github.fommil.netlib.BLAS - Failed to load implementation from: com.github.fommil.netlib.NativeRefBLAS
+2019-10-05 17:37:24,583 WARN main org.apache.spark.mllib.clustering.KMeans - The input data was not directly cached, which may hurt performance if its parent RDDs are also uncached.
+2019-10-05 18:51:02,908 WARN pool-1-thread-1-ScalaTest-running-GraphLoaderTest org.apache.hadoop.util.NativeCodeLoader - Unable to load native-hadoop library for your platform... using builtin-java classes where applicable
+2019-10-05 18:51:23,737 WARN pool-1-thread-1-ScalaTest-running-PowerIterationClusteringTest org.apache.spark.mllib.clustering.KMeans - The input data is not directly cached, which may hurt performance if its parent RDDs are also uncached.
+2019-10-05 18:51:24,646 WARN Executor task launch worker for task 1363 com.github.fommil.netlib.BLAS - Failed to load implementation from: com.github.fommil.netlib.NativeSystemBLAS
+2019-10-05 18:51:24,685 WARN Executor task launch worker for task 1363 com.github.fommil.netlib.BLAS - Failed to load implementation from: com.github.fommil.netlib.NativeRefBLAS
+2019-10-05 18:51:24,797 WARN pool-1-thread-1-ScalaTest-running-PowerIterationClusteringTest org.apache.spark.mllib.clustering.KMeans - The input data was not directly cached, which may hurt performance if its parent RDDs are also uncached.
+2019-10-05 19:06:06,554 WARN main org.apache.hadoop.util.NativeCodeLoader - Unable to load native-hadoop library for your platform... using builtin-java classes where applicable
+2019-10-05 19:08:11,386 WARN main org.apache.spark.mllib.clustering.KMeans - The input data is not directly cached, which may hurt performance if its parent RDDs are also uncached.
+2019-10-05 19:08:12,448 WARN Executor task launch worker for task 7618 com.github.fommil.netlib.BLAS - Failed to load implementation from: com.github.fommil.netlib.NativeSystemBLAS
+2019-10-05 19:08:12,501 WARN Executor task launch worker for task 7618 com.github.fommil.netlib.BLAS - Failed to load implementation from: com.github.fommil.netlib.NativeRefBLAS
+2019-10-05 19:08:13,873 WARN main org.apache.spark.mllib.clustering.KMeans - The input data was not directly cached, which may hurt performance if its parent RDDs are also uncached.
+2019-10-05 19:55:14,343 WARN main org.apache.hadoop.util.NativeCodeLoader - Unable to load native-hadoop library for your platform... using builtin-java classes where applicable
+2019-10-05 19:57:20,120 WARN main org.apache.spark.mllib.clustering.KMeans - The input data is not directly cached, which may hurt performance if its parent RDDs are also uncached.
+2019-10-05 19:57:21,197 WARN Executor task launch worker for task 7618 com.github.fommil.netlib.BLAS - Failed to load implementation from: com.github.fommil.netlib.NativeSystemBLAS
+2019-10-05 19:57:21,237 WARN Executor task launch worker for task 7618 com.github.fommil.netlib.BLAS - Failed to load implementation from: com.github.fommil.netlib.NativeRefBLAS
+2019-10-05 19:57:22,575 WARN main org.apache.spark.mllib.clustering.KMeans - The input data was not directly cached, which may hurt performance if its parent RDDs are also uncached.
+2019-10-05 19:58:38,104 WARN pool-1-thread-1-ScalaTest-running-GraphLoaderTest org.apache.hadoop.util.NativeCodeLoader - Unable to load native-hadoop library for your platform... using builtin-java classes where applicable
+2019-10-05 19:58:58,457 WARN pool-1-thread-1-ScalaTest-running-PowerIterationClusteringTest org.apache.spark.mllib.clustering.KMeans - The input data is not directly cached, which may hurt performance if its parent RDDs are also uncached.
+2019-10-05 19:58:59,301 WARN Executor task launch worker for task 1363 com.github.fommil.netlib.BLAS - Failed to load implementation from: com.github.fommil.netlib.NativeSystemBLAS
+2019-10-05 19:58:59,336 WARN Executor task launch worker for task 1363 com.github.fommil.netlib.BLAS - Failed to load implementation from: com.github.fommil.netlib.NativeRefBLAS
+2019-10-05 19:58:59,432 WARN pool-1-thread-1-ScalaTest-running-PowerIterationClusteringTest org.apache.spark.mllib.clustering.KMeans - The input data was not directly cached, which may hurt performance if its parent RDDs are also uncached.

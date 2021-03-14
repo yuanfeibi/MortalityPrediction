@@ -1,0 +1,6 @@
+#Successful Tests
+#Sat Nov 02 13:51:39 EDT 2019
+edu.gatech.cse6250.clustering.PowerIterationClusteringTest=1572717048227
+edu.gatech.cse6250.graphconstruct.RandomWalkTest=1572717096138
+edu.gatech.cse6250.graphconstruct.GraphLoaderTest=1572717098482
+edu.gatech.cse6250.graphconstruct.JaccardTest=1572717053630

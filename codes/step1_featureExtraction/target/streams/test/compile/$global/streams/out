@@ -1,0 +1,10 @@
+[0m[[0m[33mwarn[0m] [0m[0m/Volumes/Untitled/Project/stu_code_project/src/test/scala/edu/gatech/cse6250/jaccard/JaccardTest.scala:72:58: implicit numeric widening[0m
+[0m[[0m[33mwarn[0m] [0m[0m      val ids = Jaccard.jaccardSimilarityOneVsAll(graph, randPid)[0m
+[0m[[0m[33mwarn[0m] [0m[0m                                                         ^[0m
+[0m[[0m[33mwarn[0m] [0m[0m/Volumes/Untitled/Project/stu_code_project/src/test/scala/edu/gatech/cse6250/jaccard/JaccardTest.scala:74:41: implicit numeric widening[0m
+[0m[[0m[33mwarn[0m] [0m[0m      ids should have size (numPatients - 1)[0m
+[0m[[0m[33mwarn[0m] [0m[0m                                        ^[0m
+[0m[[0m[33mwarn[0m] [0m[0m/Volumes/Untitled/Project/stu_code_project/src/test/scala/edu/gatech/cse6250/jaccard/JaccardTest.scala:92:58: implicit numeric widening[0m
+[0m[[0m[33mwarn[0m] [0m[0m      val ids = Jaccard.jaccardSimilarityOneVsAll(graph, randPid)[0m
+[0m[[0m[33mwarn[0m] [0m[0m                                                         ^[0m
+[0m[[0m[33mwarn[0m] [0m[0mthree warnings found[0m

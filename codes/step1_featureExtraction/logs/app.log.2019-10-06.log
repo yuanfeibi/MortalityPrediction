@@ -1,0 +1,75 @@
+2019-10-06 01:51:15,102 WARN pool-1-thread-1-ScalaTest-running-GraphLoaderTest org.apache.hadoop.util.NativeCodeLoader - Unable to load native-hadoop library for your platform... using builtin-java classes where applicable
+2019-10-06 01:51:35,882 WARN pool-1-thread-1-ScalaTest-running-PowerIterationClusteringTest org.apache.spark.mllib.clustering.KMeans - The input data is not directly cached, which may hurt performance if its parent RDDs are also uncached.
+2019-10-06 01:51:36,739 WARN Executor task launch worker for task 1363 com.github.fommil.netlib.BLAS - Failed to load implementation from: com.github.fommil.netlib.NativeSystemBLAS
+2019-10-06 01:51:36,780 WARN Executor task launch worker for task 1363 com.github.fommil.netlib.BLAS - Failed to load implementation from: com.github.fommil.netlib.NativeRefBLAS
+2019-10-06 01:51:36,917 WARN pool-1-thread-1-ScalaTest-running-PowerIterationClusteringTest org.apache.spark.mllib.clustering.KMeans - The input data was not directly cached, which may hurt performance if its parent RDDs are also uncached.
+2019-10-06 01:58:54,058 WARN main org.apache.hadoop.util.NativeCodeLoader - Unable to load native-hadoop library for your platform... using builtin-java classes where applicable
+2019-10-06 02:01:01,885 WARN main org.apache.spark.mllib.clustering.KMeans - The input data is not directly cached, which may hurt performance if its parent RDDs are also uncached.
+2019-10-06 02:01:02,993 WARN Executor task launch worker for task 7626 com.github.fommil.netlib.BLAS - Failed to load implementation from: com.github.fommil.netlib.NativeSystemBLAS
+2019-10-06 02:01:03,049 WARN Executor task launch worker for task 7626 com.github.fommil.netlib.BLAS - Failed to load implementation from: com.github.fommil.netlib.NativeRefBLAS
+2019-10-06 02:01:04,477 WARN main org.apache.spark.mllib.clustering.KMeans - The input data was not directly cached, which may hurt performance if its parent RDDs are also uncached.
+2019-10-06 02:10:56,050 WARN main org.apache.hadoop.util.NativeCodeLoader - Unable to load native-hadoop library for your platform... using builtin-java classes where applicable
+2019-10-06 02:12:55,848 WARN main org.apache.spark.mllib.clustering.KMeans - The input data is not directly cached, which may hurt performance if its parent RDDs are also uncached.
+2019-10-06 02:12:56,831 WARN Executor task launch worker for task 7618 com.github.fommil.netlib.BLAS - Failed to load implementation from: com.github.fommil.netlib.NativeSystemBLAS
+2019-10-06 02:12:56,874 WARN Executor task launch worker for task 7618 com.github.fommil.netlib.BLAS - Failed to load implementation from: com.github.fommil.netlib.NativeRefBLAS
+2019-10-06 02:12:58,105 WARN main org.apache.spark.mllib.clustering.KMeans - The input data was not directly cached, which may hurt performance if its parent RDDs are also uncached.
+2019-10-06 02:13:28,537 WARN pool-1-thread-1-ScalaTest-running-GraphLoaderTest org.apache.hadoop.util.NativeCodeLoader - Unable to load native-hadoop library for your platform... using builtin-java classes where applicable
+2019-10-06 02:13:49,177 WARN pool-1-thread-1-ScalaTest-running-PowerIterationClusteringTest org.apache.spark.mllib.clustering.KMeans - The input data is not directly cached, which may hurt performance if its parent RDDs are also uncached.
+2019-10-06 02:13:49,994 WARN Executor task launch worker for task 1363 com.github.fommil.netlib.BLAS - Failed to load implementation from: com.github.fommil.netlib.NativeSystemBLAS
+2019-10-06 02:13:50,038 WARN Executor task launch worker for task 1363 com.github.fommil.netlib.BLAS - Failed to load implementation from: com.github.fommil.netlib.NativeRefBLAS
+2019-10-06 02:13:50,160 WARN pool-1-thread-1-ScalaTest-running-PowerIterationClusteringTest org.apache.spark.mllib.clustering.KMeans - The input data was not directly cached, which may hurt performance if its parent RDDs are also uncached.
+2019-10-06 02:25:52,276 WARN main org.apache.hadoop.util.NativeCodeLoader - Unable to load native-hadoop library for your platform... using builtin-java classes where applicable
+2019-10-06 02:27:57,209 WARN main org.apache.spark.mllib.clustering.KMeans - The input data is not directly cached, which may hurt performance if its parent RDDs are also uncached.
+2019-10-06 02:27:58,211 WARN Executor task launch worker for task 7618 com.github.fommil.netlib.BLAS - Failed to load implementation from: com.github.fommil.netlib.NativeSystemBLAS
+2019-10-06 02:27:58,268 WARN Executor task launch worker for task 7618 com.github.fommil.netlib.BLAS - Failed to load implementation from: com.github.fommil.netlib.NativeRefBLAS
+2019-10-06 02:27:59,496 WARN main org.apache.spark.mllib.clustering.KMeans - The input data was not directly cached, which may hurt performance if its parent RDDs are also uncached.
+2019-10-06 02:35:58,572 WARN main org.apache.hadoop.util.NativeCodeLoader - Unable to load native-hadoop library for your platform... using builtin-java classes where applicable
+2019-10-06 02:37:55,895 WARN main org.apache.spark.mllib.clustering.KMeans - The input data is not directly cached, which may hurt performance if its parent RDDs are also uncached.
+2019-10-06 02:37:57,040 WARN Executor task launch worker for task 7618 com.github.fommil.netlib.BLAS - Failed to load implementation from: com.github.fommil.netlib.NativeSystemBLAS
+2019-10-06 02:37:57,098 WARN Executor task launch worker for task 7618 com.github.fommil.netlib.BLAS - Failed to load implementation from: com.github.fommil.netlib.NativeRefBLAS
+2019-10-06 02:37:58,634 WARN main org.apache.spark.mllib.clustering.KMeans - The input data was not directly cached, which may hurt performance if its parent RDDs are also uncached.
+2019-10-06 02:39:53,954 WARN pool-1-thread-1-ScalaTest-running-GraphLoaderTest org.apache.hadoop.util.NativeCodeLoader - Unable to load native-hadoop library for your platform... using builtin-java classes where applicable
+2019-10-06 02:40:17,482 WARN pool-1-thread-1-ScalaTest-running-PowerIterationClusteringTest org.apache.spark.mllib.clustering.KMeans - The input data is not directly cached, which may hurt performance if its parent RDDs are also uncached.
+2019-10-06 02:40:18,402 WARN Executor task launch worker for task 1363 com.github.fommil.netlib.BLAS - Failed to load implementation from: com.github.fommil.netlib.NativeSystemBLAS
+2019-10-06 02:40:18,442 WARN Executor task launch worker for task 1363 com.github.fommil.netlib.BLAS - Failed to load implementation from: com.github.fommil.netlib.NativeRefBLAS
+2019-10-06 02:40:18,563 WARN pool-1-thread-1-ScalaTest-running-PowerIterationClusteringTest org.apache.spark.mllib.clustering.KMeans - The input data was not directly cached, which may hurt performance if its parent RDDs are also uncached.
+2019-10-06 03:26:17,598 WARN main org.apache.hadoop.util.NativeCodeLoader - Unable to load native-hadoop library for your platform... using builtin-java classes where applicable
+2019-10-06 03:28:25,140 WARN main org.apache.spark.mllib.clustering.KMeans - The input data is not directly cached, which may hurt performance if its parent RDDs are also uncached.
+2019-10-06 03:28:26,501 WARN Executor task launch worker for task 7618 com.github.fommil.netlib.BLAS - Failed to load implementation from: com.github.fommil.netlib.NativeSystemBLAS
+2019-10-06 03:28:26,562 WARN Executor task launch worker for task 7618 com.github.fommil.netlib.BLAS - Failed to load implementation from: com.github.fommil.netlib.NativeRefBLAS
+2019-10-06 03:28:27,914 WARN main org.apache.spark.mllib.clustering.KMeans - The input data was not directly cached, which may hurt performance if its parent RDDs are also uncached.
+2019-10-06 03:32:40,158 WARN main org.apache.hadoop.util.NativeCodeLoader - Unable to load native-hadoop library for your platform... using builtin-java classes where applicable
+2019-10-06 03:34:43,568 WARN main org.apache.spark.mllib.clustering.KMeans - The input data is not directly cached, which may hurt performance if its parent RDDs are also uncached.
+2019-10-06 03:34:44,654 WARN Executor task launch worker for task 7618 com.github.fommil.netlib.BLAS - Failed to load implementation from: com.github.fommil.netlib.NativeSystemBLAS
+2019-10-06 03:34:44,702 WARN Executor task launch worker for task 7618 com.github.fommil.netlib.BLAS - Failed to load implementation from: com.github.fommil.netlib.NativeRefBLAS
+2019-10-06 03:34:46,242 WARN main org.apache.spark.mllib.clustering.KMeans - The input data was not directly cached, which may hurt performance if its parent RDDs are also uncached.
+2019-10-06 03:35:12,417 WARN pool-1-thread-1-ScalaTest-running-GraphLoaderTest org.apache.hadoop.util.NativeCodeLoader - Unable to load native-hadoop library for your platform... using builtin-java classes where applicable
+2019-10-06 03:35:33,428 WARN pool-1-thread-1-ScalaTest-running-PowerIterationClusteringTest org.apache.spark.mllib.clustering.KMeans - The input data is not directly cached, which may hurt performance if its parent RDDs are also uncached.
+2019-10-06 03:35:34,220 WARN Executor task launch worker for task 1363 com.github.fommil.netlib.BLAS - Failed to load implementation from: com.github.fommil.netlib.NativeSystemBLAS
+2019-10-06 03:35:34,257 WARN Executor task launch worker for task 1363 com.github.fommil.netlib.BLAS - Failed to load implementation from: com.github.fommil.netlib.NativeRefBLAS
+2019-10-06 03:35:34,351 WARN pool-1-thread-1-ScalaTest-running-PowerIterationClusteringTest org.apache.spark.mllib.clustering.KMeans - The input data was not directly cached, which may hurt performance if its parent RDDs are also uncached.
+2019-10-06 03:55:24,284 WARN pool-1-thread-1-ScalaTest-running-GraphLoaderTest org.apache.hadoop.util.NativeCodeLoader - Unable to load native-hadoop library for your platform... using builtin-java classes where applicable
+2019-10-06 03:55:46,174 WARN pool-1-thread-1-ScalaTest-running-PowerIterationClusteringTest org.apache.spark.mllib.clustering.KMeans - The input data is not directly cached, which may hurt performance if its parent RDDs are also uncached.
+2019-10-06 03:55:46,987 WARN Executor task launch worker for task 1363 com.github.fommil.netlib.BLAS - Failed to load implementation from: com.github.fommil.netlib.NativeSystemBLAS
+2019-10-06 03:55:47,035 WARN Executor task launch worker for task 1363 com.github.fommil.netlib.BLAS - Failed to load implementation from: com.github.fommil.netlib.NativeRefBLAS
+2019-10-06 03:55:47,156 WARN pool-1-thread-1-ScalaTest-running-PowerIterationClusteringTest org.apache.spark.mllib.clustering.KMeans - The input data was not directly cached, which may hurt performance if its parent RDDs are also uncached.
+2019-10-06 15:55:29,256 WARN pool-1-thread-1-ScalaTest-running-GraphLoaderTest org.apache.hadoop.util.NativeCodeLoader - Unable to load native-hadoop library for your platform... using builtin-java classes where applicable
+2019-10-06 15:55:51,620 WARN pool-1-thread-1-ScalaTest-running-PowerIterationClusteringTest org.apache.spark.mllib.clustering.KMeans - The input data is not directly cached, which may hurt performance if its parent RDDs are also uncached.
+2019-10-06 15:55:52,791 WARN Executor task launch worker for task 1363 com.github.fommil.netlib.BLAS - Failed to load implementation from: com.github.fommil.netlib.NativeSystemBLAS
+2019-10-06 15:55:52,863 WARN Executor task launch worker for task 1363 com.github.fommil.netlib.BLAS - Failed to load implementation from: com.github.fommil.netlib.NativeRefBLAS
+2019-10-06 15:55:52,995 WARN pool-1-thread-1-ScalaTest-running-PowerIterationClusteringTest org.apache.spark.mllib.clustering.KMeans - The input data was not directly cached, which may hurt performance if its parent RDDs are also uncached.
+2019-10-06 15:57:38,214 WARN main org.apache.hadoop.util.NativeCodeLoader - Unable to load native-hadoop library for your platform... using builtin-java classes where applicable
+2019-10-06 15:59:46,239 WARN main org.apache.spark.mllib.clustering.KMeans - The input data is not directly cached, which may hurt performance if its parent RDDs are also uncached.
+2019-10-06 15:59:47,279 WARN Executor task launch worker for task 7606 com.github.fommil.netlib.BLAS - Failed to load implementation from: com.github.fommil.netlib.NativeSystemBLAS
+2019-10-06 15:59:47,337 WARN Executor task launch worker for task 7606 com.github.fommil.netlib.BLAS - Failed to load implementation from: com.github.fommil.netlib.NativeRefBLAS
+2019-10-06 15:59:48,639 WARN main org.apache.spark.mllib.clustering.KMeans - The input data was not directly cached, which may hurt performance if its parent RDDs are also uncached.
+2019-10-06 16:03:44,648 WARN pool-1-thread-1-ScalaTest-running-GraphLoaderTest org.apache.hadoop.util.NativeCodeLoader - Unable to load native-hadoop library for your platform... using builtin-java classes where applicable
+2019-10-06 16:04:06,464 WARN pool-1-thread-1-ScalaTest-running-PowerIterationClusteringTest org.apache.spark.mllib.clustering.KMeans - The input data is not directly cached, which may hurt performance if its parent RDDs are also uncached.
+2019-10-06 16:04:07,369 WARN Executor task launch worker for task 1363 com.github.fommil.netlib.BLAS - Failed to load implementation from: com.github.fommil.netlib.NativeSystemBLAS
+2019-10-06 16:04:07,409 WARN Executor task launch worker for task 1363 com.github.fommil.netlib.BLAS - Failed to load implementation from: com.github.fommil.netlib.NativeRefBLAS
+2019-10-06 16:04:07,537 WARN pool-1-thread-1-ScalaTest-running-PowerIterationClusteringTest org.apache.spark.mllib.clustering.KMeans - The input data was not directly cached, which may hurt performance if its parent RDDs are also uncached.
+2019-10-06 16:05:54,466 WARN main org.apache.hadoop.util.NativeCodeLoader - Unable to load native-hadoop library for your platform... using builtin-java classes where applicable
+2019-10-06 16:08:00,550 WARN main org.apache.spark.mllib.clustering.KMeans - The input data is not directly cached, which may hurt performance if its parent RDDs are also uncached.
+2019-10-06 16:08:01,918 WARN Executor task launch worker for task 7606 com.github.fommil.netlib.BLAS - Failed to load implementation from: com.github.fommil.netlib.NativeSystemBLAS
+2019-10-06 16:08:01,975 WARN Executor task launch worker for task 7606 com.github.fommil.netlib.BLAS - Failed to load implementation from: com.github.fommil.netlib.NativeRefBLAS
+2019-10-06 16:08:03,306 WARN main org.apache.spark.mllib.clustering.KMeans - The input data was not directly cached, which may hurt performance if its parent RDDs are also uncached.
